@@ -14,7 +14,7 @@ if($chek>0)
 	if($data['username']=="admin"){
 		header("location:registration.php");
 	}else {
-        header("location:report.php");
+        header("location:all_report.php");
     }
 }else
 {

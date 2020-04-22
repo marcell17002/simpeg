@@ -8,21 +8,21 @@
 	<link rel="stylesheet" type="text/css" href="../assets/css/sregistration.css">
 </head>
 <body>
-<div class="top-nav">
-    <div class="container">
-        <div class="row">
-            <div class="col-sm-2">
-            <img src="../assets/img/logo.png" style="width: 80px ; margin-top:5%;height : 80px;">		
-            </div>
-            <div class="col-sm-8">
-                <h2 style="text-align:center">Hello, Here is the Form Input
-            </div>  
-            <div class="col-sm-2">
-            <a href="login.php" ><button type="button" class="btn btn-primary btn-lg" style="margin-top:10%;margin-left:90%">Log Out</button></a>
-            </div>
-        </div>
+    <nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+        <ul class="nav navbar-nav navbar-left">
+            <img src="../assets/img/logo.png" style="width: 70px ; margin-top:5%;height : 70px;">
+        </ul>
+        <ul>
+        <h2 class="navbar-brand" style="margin-left:40%;font-size:40px;"> Registration </h2>
+        <ul>
+        <ul class="nav navbar-nav navbar-right" style="padding-left:5%">
+        <a href="login.php" ><button type="button" class="btn btn-primary btn-lg" style="margin-top:20%">Log Out</button>&nbsp;&nbsp;&nbsp;</a>
+        </ul>
     </div>
-    </div>
+    </nav>
+    <br>
+    <h3 style="text-align:center"> Input Data Here </h3>
     <div class="form-input">
 	<div class="container-fluid">
 		<div class="row">
