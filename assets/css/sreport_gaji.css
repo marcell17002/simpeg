@@ -24,7 +24,7 @@ body {
 .sidebar {
   margin: 0;
   padding: 0;
-  width: 200px;
+  width: 300px;
   background-color: #ffff;
   position: fixed;
   height: 100%;
@@ -75,4 +75,11 @@ div.content {
   position: absolute;
   width: 100%;
   bottom: 10px;
+}
+
+.content-isi{
+  margin-left: 10%;
+  margin-right: 5%;
+  margin-top:2%;
+  overflow: auto;
 }
